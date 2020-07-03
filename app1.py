@@ -10,6 +10,8 @@ def hello_world(username=None,post_id=None):
 # def hello():
 #     return "hello"
 
+print("Hello")
+
 @app.route('/about')
 def about():
     return render_template("about.html")    
